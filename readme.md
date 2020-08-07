@@ -46,6 +46,11 @@ $ import pstep
 $ pstep.dispatch()
 ```
 
+Or cd to the directory containing the python file cellwall and run
+```console
+$ python ./cellwall.py
+```
+
 # Building
 
 You may have to specify directories of dependencies, like so:
