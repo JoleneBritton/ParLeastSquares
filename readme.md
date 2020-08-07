@@ -8,6 +8,7 @@ Optimizes multiple inputs in parallel using the Levenberg-Marquadt algorithm.
 - Eigen3
 - python3
 - numpy
+- torch
 
 # Running Cell Wall Code
 ssh into Marianas
