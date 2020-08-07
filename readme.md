@@ -32,7 +32,10 @@ $ cd ParLeastSquares
 Rerun build file if made any changes (without --install if debugging or making modifications)
 
 ```console
-./build.sh                 
+./build.sh  
+```
+or
+```console
 ./build.sh —install  
 ```
 
