@@ -10,6 +10,11 @@ Optimizes multiple inputs in parallel using the Levenberg-Marquadt algorithm.
 - numpy
 
 # Running Cell Wall Code
+ssh into Marianas
+```console
+$ ssh -X {username}@constance.pnl.gov
+$ ssh -X marianas.pnl.gov
+```
 
 Load in environment
 ```console
