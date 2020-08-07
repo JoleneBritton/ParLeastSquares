@@ -9,17 +9,26 @@ Optimizes multiple inputs in parallel using the Levenberg-Marquadt algorithm.
 - python3
 - numpy
 
-# ???
+# Running Cell Wall Code
+
+Load in environment
+```console
+$ module load python/anaconda3.2019.3
+$ module load cmake/3.15.3
+$ source /qfs/projects/boltzmann/init_enviroment.sh
+```
+
+Navigate to correct directory
 
 ```console
-module load python/anaconda3.2019.3
-module load cmake/3.15.3
-source /qfs/projects/boltzmann/init_enviroment.sh
+$ cd ParLeastSquares
+```
 
-cd ParLeastSquares
+Rerun build file if made any changes (without --install if debugging or making modifications)
 
-./build.sh                 #builds, does not install (if debugging or making modifications)
-./build.sh —install  #builds and installs. 
+```console
+./build.sh                 
+./build.sh —install  
 ```
 
 # Building
