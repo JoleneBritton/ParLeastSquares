@@ -9,6 +9,17 @@ Optimizes multiple inputs in parallel using the Levenberg-Marquadt algorithm.
 - python3
 - numpy
 
+# ???
+
+module load python/anaconda3.2019.3
+module load cmake/3.15.3
+source /qfs/projects/boltzmann/init_enviroment.sh
+
+cd ParLeastSquares
+
+./build.sh                 #builds, does not install (if debugging or making modifications)
+./build.sh —install  #builds and installs. 
+
 # Building
 
 You may have to specify directories of dependencies, like so:
