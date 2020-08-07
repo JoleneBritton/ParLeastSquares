@@ -39,6 +39,13 @@ or
 ./build.sh —install  
 ```
 
+Open python and see if pstep is there
+```console
+$ python
+$ import pstep
+$ pstep.dispatch()
+```
+
 # Building
 
 You may have to specify directories of dependencies, like so:
@@ -67,6 +74,7 @@ $ cmake .. -DDATA_PATH=/some/path
 $ make
 $ ctest
 ```
+
 
 # Installation
 
